@@ -1,0 +1,349 @@
+body {
+padding-bottom: 20px;
+}
+
+#block:after, #report:after{
+color: white;
+}
+
+#header{
+background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat 100% top,/*url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAABmJLR0QAzADMAMzfwV8aAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAKElEQVQI12XIMQEAIAwDsEircwxUFA8csDOBtNUWgmUEGXH8xs0/sgExjB4kmTjTmwAAAABJRU5ErkJggg==),*/linear-gradient(180deg, var(--color-main), var(--color-second)),#000000 !important;
+box-shadow:inset 0px 1px var(--color-header-gradient-top) !important;
+padding: 5px 0 !important;
+width: 100% !important;
+}
+
+#header a.logo b span{
+text-shadow: 0 -1px 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+padding-left: 10px !important;
+}
+
+/* frick! */
+
+#hSub{
+height: 24px !important;
+width: calc(100% - 4px) !important;
+background: var(--menu-back) !important;
+box-shadow: inset 0 -1px 0 0 #cccccc !important;
+border-bottom: solid 1px var(--color-win-border) !important;
+color: #e6e6e6 !important;
+padding: 0 2px !important;
+line-height: 24px !important;
+}
+
+#hSub a{
+display: inline-block;
+color: black;
+height: 100%;
+padding: 0 2px;
+}
+
+#hSub a:hover{
+background-color: navy;
+color: white;
+}
+
+.box.comments .boxHead{
+background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat calc(100% - 0.5px) top, linear-gradient(189deg, var(--color-main), var(--color-second));
+color: white;
+padding-left: 4px;
+height: 32px;
+line-height: 32px;
+border-bottom: solid 1px var(--color-win-border);
+box-shadow:inset 0px 1px var(--color-header-gradient-top) !important;
+}
+
+#commentInput{
+background: rgba(0,0,0,0.75);
+color: #FFBF00;
+font-family: monospace;
+margin-top: 0;
+}
+
+.shortRight{
+font-family: monospace;
+}
+
+div#gender{
+font-size: 0px !important;
+}
+
+div#gender:before{
+content: "gender: ";
+display: block;
+text-align: left;
+font-size: 15px;
+}
+
+div#gender:after{
+content: "yes";
+display: block;
+text-align: right;
+font-size: 15px;
+margin-right: 0;
+margin-top: -18px;
+}
+
+span#age{
+font-size: 0px !important;
+}
+
+span#age:after{
+content: "today";
+font-size: 15px;
+}
+
+span.fwiendCount{
+font-size: 0px !important;
+}
+
+span.fwiendCount:after{
+content: "no";
+font-size: 15px;
+}
+
+div.boxInfo.box{
+border-color:var(--color-win-border) !important;
+}
+
+.box:not(.comments), .box>div#form, .box>table#userWall, .blogCard,.topLeft>div:first-child,.short{
+background: var(--image-blur), rgba(0, 0, 0, 0.15);
+background-blend-mode: multiply;
+background-attachment: fixed;
+background-size: cover;
+}
+
+div.boxInfo.box{
+background: var(--image-blur), rgba(0, 0, 0, 0.35);
+background-blend-mode: multiply;
+background-attachment: fixed;
+background-size: cover;
+text-shadow: 1px 1px 0px black;
+}
+
+.blurbs{
+background: white !important;
+}
+
+.boxHead{
+background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat calc(100% - 0.5px) top, linear-gradient(189deg, var(--color-header-main), var(--color-header-second));
+box-shadow:inset 0px 1px var(--color-header-gradient-top) !important;
+border-bottom: solid 1px var(--color-win-border);
+height: 25px;
+line-height: 25px;
+}
+
+.boxInfo{
+background: linear-gradient(189deg, var(--color-main), var(--color-second));
+}
+
+.boxInfo>a{
+display: inline-block;
+width: 100%;
+height: 32px;
+}
+
+/* secret message in the middle of css
+begone furries
+this page is 100% (christian|halal)
+*/
+
+.boxInfo>a:hover{
+background: linear-gradient(189deg, var(--color-header-main), var(--color-header-second));
+}
+
+.boxInfo>a>.boxButton{
+color: white;
+width: calc(100% - 30px);
+}
+
+.topRight>.box:not(.comments){
+border: solid 1px var(--color-win-border);
+}
+
+.topRight>.box.comments{
+border-top: solid 1px var(--color-win-border);
+border-bottom: solid 1px var(--color-win-border);
+}
+
+div.box.comments > div#form, div.box.comments > div.boxHead, div.box.comments > table#userWall, div.box.comments>div:last-child {
+border-left: solid 1px var(--color-win-border);
+border-right: solid 1px var(--color-win-border);
+}
+
+.box.comments > div#form{
+border-bottom: solid 1px var(--color-win-border);
+}
+
+.box.comments > div.boxHead{
+margin-top: 10px;
+}
+
+.box.comments > table#userWall {
+margin: 0px;
+width: 100%;
+border-spacing: 0;
+background: #272C2D;
+}
+
+.box.comments > table#userWall td {
+background: #272C2D;
+color: #babdb6;
+}
+
+.box.comments > table#userWall > tbody > tr > td.tableLeft > a {
+color: #8ae234;
+}
+
+.rightHead,.blurbs>.blogs>div:first-child{
+background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat calc(100% - 0.5px) top, linear-gradient(189deg, var(--color-main), var(--color-second));
+color: white;
+padding-left: 4px;
+height: 32px;
+line-height: 32px;
+border-bottom: solid 1px var(--color-win-border);
+box-shadow:inset 0px 1px var(--color-header-gradient-top) !important;
+}
+
+.comments>.boxHead{
+border-top: solid 1px var(--color-win-border);
+}
+
+.fwiends{
+margin-bottom: 20px;
+}
+
+.player{
+position: fixed;
+left: 0;
+bottom: 0;
+margin: 0;
+padding: 0;
+height: 18px;
+border: none;
+background: none;
+width: 100%;
+}
+
+.player>.songName{
+display: none;
+}
+
+audio{
+margin: 0;
+padding: 0;
+height: 100%;
+border: none !important;
+border-radius: 0px !important;
+}
+
+/*audio::-webkit-media-controls-panel{
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4wkTDgEgO1NlDwAAADtJREFUCNc9x7ENgDAMRNHz7/H+y0QUaULBDBZT+OgoIlE9PY1zsq4b23Qb+6Xt/1UPCogIJAFbSWQeH2cfGPtTujZdAAAAAElFTkSuQmCC);
+}
+
+audio::-webkit-media-controls-timeline-container{
+-webkit-appearance: none
+background: white;
+}*/
+
+.shortRight,.blogCard{
+color:white;
+text-shadow: black 1px 1px 0;
+}
+
+/*.blogCard,.topLeft>div:first-child,.short{
+background: var(--image-blur), rgba(0, 0, 0, 0.1);
+background-blend-mode: multiply;
+}*/
+
+table.short{
+position: relative;
+top: -3px;
+width: 100%;
+}
+
+div#online>img {
+display: none;
+}
+div#online:before {
+content: "user:";
+display: block;
+text-align: left;
+}
+div#online:after {
+content: "ONLINE";
+display: block;
+font-family: monospace;
+margin-right: 0;
+text-align: right;
+margin-top: -18px;
+}
+
+.uName#name {
+text-align: right;
+margin-right: 0.75em;
+color:white;
+text-shadow: black 1px 1px 0;
+}
+
+.blurbs {
+background: white;
+/*box-shadow: inset #cccccc 1px 34px, inset #fbfbfb -1px -1px, inset #dcdcdc -2px -2px, inset black 2px 35px;*/
+padding: 3px;
+}
+
+.blurbs>.rightHead{
+margin: 0 -3px;
+border-top: solid var(--color-win-border) 1px;
+}
+
+.blogs{
+display: flex;
+flex-flow: row wrap;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+
+.blurbs>.blogs>div:first-child{
+margin-top: -3px;
+margin-left: -3px;
+margin-right: -3px;
+border-top: none;
+position: relative;
+width: calc(100% + 2px);
+top: -16px;
+}
+
+.blurbs>.blogs>div:nth-child(2){
+box-shadow:0px 0px 0 1px navy;
+}
+
+.blurbs>.blogs>div:not(:first-child){
+width: 96px;
+text-align: center;
+margin: 0 20px;
+}
+
+.blurbs>.blogs>div:not(:first-child):before{
+content: "";
+display: block;
+width: 96px;
+height: 64px;
+background: url(https://i.imgur.com/kHoOJF5.png);
+background-repeat: no-repeat;
+background-position: center;
+image-rendering: pixelated;
+}
+
+.blurbs>.blogs>div:not(:first-child):hover:before{
+background-image: url(https://i.imgur.com/Mk6p3cQ.png);
+}
+
+div.box.comments>div:last-child{
+background-color: #E8E5E0;
+margin-top:-4px; /*TODO: wtf*/
+}
+
+div.url.box{
+color: white !important;
+}
