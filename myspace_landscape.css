@@ -1,1 +1,32 @@
 /* oof */
+#header,
+#hSub,
+.topLeft,
+.extended.box,
+.blogs>div:first-child,
+#footer {
+	display: none;
+}
+
+.topRight {
+	position: fixed;
+	bottom: 24px;
+	left: 24px;
+	height: 50vh;
+	z-index: 10;
+	overflow-y: scroll;
+	background: #fcfcfc;
+}
+
+.blogs {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.blogs,
+.blogs>div,
+.blogs>div>* {
+	z-index: -1;
+}
