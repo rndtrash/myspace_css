@@ -5,7 +5,7 @@
 .extended.box,
 .blogs>div:first-child,
 #footer {
-	display: none;
+	display: none !important;
 }
 
 .topRight {
