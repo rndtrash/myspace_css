@@ -179,22 +179,6 @@ border-bottom: solid 1px var(--color-win-border);
 margin-top: 10px;
 }
 
-.box.comments > table#userWall {
-margin: 0px;
-width: 100%;
-border-spacing: 0;
-background: #272C2D;
-}
-
-.box.comments > table#userWall td {
-background: #272C2D;
-color: #babdb6;
-}
-
-.box.comments > table#userWall > tbody > tr > td.tableLeft > a {
-color: #8ae234;
-}
-
 .rightHead,.blurbs>.blogs>div:first-child{
 background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat calc(100% - 0.5px) top, linear-gradient(189deg, var(--color-main), var(--color-second));
 color: white;
