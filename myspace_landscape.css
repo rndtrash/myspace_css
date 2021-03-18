@@ -3,7 +3,7 @@
 #hSub,
 .topLeft,
 .extended.box,
-.blogs>div:first-child,
+div:not(.blogPost)>.blogs>div:first-child,
 #footer {
 	display: none !important;
 }
