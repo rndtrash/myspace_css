@@ -40,7 +40,8 @@ div:not(.blogPost)>.blogs>div>* {
 	left: 24px;
 	height: calc(50vh + 20px);
 	width: 20vw;
-	background: var(--image-blur), rgba(0, 0, 0, 0.15);
+	background: var(--image-blur), rgba(255, 255, 255, 0.1);
+	background-blend-mode: overlay;
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 }
