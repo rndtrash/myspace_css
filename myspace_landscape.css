@@ -11,10 +11,12 @@ div:not(.blogPost)>.blogs>div:first-child,
 .topRight {
 	position: fixed;
 	bottom: 24px;
-	left: 24px;
+	left: calc(24px + 20vw);
 	height: 50vh;
 	z-index: 10;
-	overflow-y: scroll;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	overflow-y: overlay;
 	background: #fcfcfc;
 }
 
@@ -29,4 +31,16 @@ div:not(.blogPost)>.blogs,
 div:not(.blogPost)>.blogs>div,
 div:not(.blogPost)>.blogs>div>* {
 	z-index: -1;
+}
+
+.topRight:before {
+	content: "";
+	position: fixed;
+	bottom: 24px;
+	left: 24px;
+	height: calc(50vh + 20px);
+	width: 20vw;
+	background: var(--image-blur), rgba(0, 0, 0, 0.15);
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 }
