@@ -13,6 +13,8 @@ div:not(.blogPost)>.blogs>div:first-child,
 	bottom: 24px;
 	left: calc(24px + 20vw);
 	height: 50vh;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 	z-index: 10;
 	overflow-y: scroll;
 	background: #fcfcfc;
