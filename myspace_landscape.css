@@ -14,8 +14,6 @@ div:not(.blogPost)>.blogs>div:first-child,
 	left: calc(24px + 20vw);
 	height: 50vh;
 	z-index: 10;
-	/*border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;*/
 	overflow-y: scroll;
 	background: #fcfcfc;
 }
@@ -54,6 +52,8 @@ div:not(.blogPost)>.blogs>div>* {
 .topRight::-webkit-scrollbar
 {
 	width: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 	background: rgba(0, 0, 0, 0);
 }
 
