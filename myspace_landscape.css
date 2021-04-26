@@ -41,6 +41,10 @@ div:not(.blogPost)>.blogs>div>* {
 	height: calc(50vh + 20px);
 	width: 20vw;
 	background: var(--image-blur), rgba(255, 255, 255, 0.1);
+	background-size: var(--image-blur-size);
+	background-repeat: var(--image-blur-repeat);
+	background-attachment: var(--image-blur-attachment);
+	
 	background-blend-mode: overlay;
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
