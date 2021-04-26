@@ -109,15 +109,17 @@ border-color:var(--color-win-border) !important;
 .box:not(.comments), .box>div#form, .box>table#userWall, .blogCard,.topLeft>div:first-child,.short{
 background: var(--image-blur), rgba(0, 0, 0, 0.15);
 background-blend-mode: multiply;
-background-attachment: fixed;
-background-size: cover;
+background-size: var(--image-blur-size);
+background-repeat: var(--image-blur-repeat);
+background-attachment: var(--image-blur-attachment);
 }
 
 div.boxInfo.box{
 background: var(--image-blur), rgba(0, 0, 0, 0.35);
 background-blend-mode: multiply;
-background-attachment: fixed;
-background-size: cover;
+background-size: var(--image-blur-size);
+background-repeat: var(--image-blur-repeat);
+background-attachment: var(--image-blur-attachment);
 text-shadow: 1px 1px 0px black;
 }
 
