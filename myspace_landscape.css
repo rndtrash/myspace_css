@@ -1,4 +1,7 @@
-/* oof */
+body {
+	--navbar-width: 250px;
+}
+
 #header,
 #hSub,
 .topLeft,
@@ -11,7 +14,7 @@ div:not(.blogPost)>.blogs>div:first-child,
 .topRight {
 	position: fixed;
 	bottom: 24px;
-	left: calc(24px + 20vw);
+	left: calc(24px + var(--navbar-width));
 	height: 50vh;
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -39,7 +42,7 @@ div:not(.blogPost)>.blogs>div>* {
 	bottom: 24px;
 	left: 24px;
 	height: calc(50vh + 20px);
-	width: 20vw;
+	width: var(--navbar-width);
 	background: var(--image-blur), rgba(255, 255, 255, 0.1);
 	background-size: var(--image-blur-size);
 	background-repeat: var(--image-blur-repeat);
@@ -68,4 +71,17 @@ div:not(.blogPost)>.blogs>div>* {
 	background: #4A5459;
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
+}
+
+/* navigation */
+#comments:target .box.blurbs>*:not(.blogs) { /* any anchor */
+	display: none;
+}
+
+#comments:not(:target) .box.comments {
+	display: none;
+}
+
+#comments:target .box.comments {
+	display: block;
 }
