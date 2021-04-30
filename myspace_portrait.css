@@ -43,6 +43,30 @@ background-color: navy;
 color: white;
 }
 
+#hUp {
+margin-top: 0px !important;
+}
+
+a[href*="mailbox.php"] {
+font-size: 0 !important;
+background: url(https://i.imgur.com/rYgiIEe.png) no-repeat;
+height: 24px;
+width: 24px;
+line-height: 24px;
+display: inline-block;
+margin: auto 0;
+}
+
+a[href="logout.php"] {
+font-size: 0 !important;
+background: url(https://i.imgur.com/EVt2L6S.png) no-repeat;
+height: 24px;
+width: 24px;
+line-height: 24px;
+display: inline-block;
+margin: auto 0;
+}
+
 .box.comments .boxHead{
 background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat calc(100% - 0.5px) top, linear-gradient(189deg, var(--color-main), var(--color-second));
 color: white;
