@@ -46,6 +46,7 @@ color: white;
 .box.comments .boxHead{
 background:var(--image-win-border) no-repeat left top, var(--image-win-border) no-repeat calc(100% - 0.5px) top, linear-gradient(189deg, var(--color-main), var(--color-second));
 color: white;
+text-shadow: 0 -1px 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 padding-left: 4px;
 height: 32px;
 line-height: 32px;
